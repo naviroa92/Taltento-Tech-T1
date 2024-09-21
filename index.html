@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 1 | Grupo 1</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Taller 1</h1>
+
+    <div>
+        <h2>Ejercicio 1</h2>
+        <p>La galería de imágenes, incluyendo el uso de &lt;figure&gt;</p>
+
+        <figure>
+        <img src="https://doggiesintown.com/wp-content/uploads/2023/08/El-Fascinante-Mundo-del-Perro-Salchicha-Explorando-su-Historia-Crianza-y-Personalidad-Unica-Doggies-in-Town-1200x676-5.jpg" width="640" height="360">
+        <figcaption>Perro El-Fascinante-Mundo-del-Perro-Salchicha-Explorando-su-Historia-Crianza-y-Personalidad-Unica-Doggies-in-Town-1200x676-5</figcaption>
+        </figure>
+    </div>
+
+    <div>
+        <h2>Ejercicio 2</h2>
+        <p>Un ejemplo de video incorporado con &lt;video&gt;.</p>
+        <video controls poster="img/Border-Collie-Blue-Merle-1.jpg" width="" height="360">
+            <source src="img/original-c2fc6f1a7cd4b57bbae21a246e09c763.mp4">
+        </video>
+        <video controls autoplay muted loop poster="img/Border-Collie-Blue-Merle-1.jpg" width="" height="360">
+            <source src="img/original-c2fc6f1a7cd4b57bbae21a246e09c763.mp4">
+        </video>
+    </div>
+
+    <div>
+        <h2>Ejercicio 3</h2>
+        <p>Ejemplos de contenido embebido YouTube, Google</p>
+        <br>
+        <h3>Embebido de Video de Youtube</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FgAh_ufALns?si=GC0modPvqQ5jmvv7&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <h3>Embebido de mapa de Google Maps</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15901.745721740706!2d-74.036751!3d4.866308!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e40797fc00702cf%3A0xebbb618377b8f109!2sJuan%20Valdez%20Caf%C3%A9!5e0!3m2!1ses!2sco!4v1726885868686!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <h3>Embebido de PDF</h3>
+        <embed src="resources/Artboard 1.pdf" type="application/pdf" width="100%" height="600px">
+    </div>
+
+    <div>
+        <h2>Ejercicio 4</h2>
+        <p>Demostración de técnicas de responsividad para imágenes y videos.</p>
+
+        <br>
+        <h3>Ejercicio Imagen Responsiva</h3>
+
+        <img 
+            src="img/imagen-grande.jpg" 
+            srcset="img/imagen-pequena.jpg  300w, img/imagen-mediana.jpg  600w, img/imagen-grande.jpg 1200w" 
+            sizes = "(max-width:320px) 280px, (max-width:640px) 580px, 1200px"
+            alt="Descripción de la imagen">
+
+        <br>
+        <h3>Ejercicio Video Responsivo</h3>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/FgAh_ufALns?si=GC0modPvqQ5jmvv7&amp;start=1" frameborder="1" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+    
+
+
+</body>
+</html>
